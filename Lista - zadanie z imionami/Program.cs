@@ -12,7 +12,14 @@ class Program
             Console.WriteLine(lista[i]);
 
         }
+        lista.RemoveAt(1);
+        lista.Add("Bartłomiej");
+        lista.Sort();
+        for (int i = 0; i < lista.Count; i++)
+        {
+            Console.WriteLine(lista[i]);
 
+        }
 
 
 
